@@ -1,0 +1,118 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+#diets{
+   width: 100%;
+   display: flex;
+   margin-top: 3%;
+   justify-content: space-around;
+   background-color: rgb(27, 27, 27);
+}
+
+#diets img{
+    height: 350px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+#diets p{
+    width: 85%;
+    
+}
+
+.diets-volumen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+   border: 2px solid grey;
+    
+}
+
+.diets-definicion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    border: 2px solid grey;
+}
+
+.title-diets{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+    font-size: 40px;
+    color: white;
+    
+    border-bottom: 3px solid aqua;
+    
+}
+
+.parrafo-diets{
+    padding-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+.title-type-diets{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
+.img-vol:hover{
+
+transform: scale(1.1);
+transition: all .5s;
+
+}
+.img-definition:hover{
+
+    transform: scale(1.1);
+    transition: all .5s;
+    
+    }
+
+
+
+
+/*  MEDIA QUERY*/
+
+
+    @media(max-width:480px){
+        #diets{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        #diets img{
+            height: 250px;
+            width: 70%;
+            border-radius: 6px;
+        }
+       
+
+        .diets-volumen{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1%;
+           border: 2px solid grey;
+            
+        }
+        .diets-definicion{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1%;
+           border: 2px solid grey;
+            
+        }
+    }

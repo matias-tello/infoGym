@@ -1,0 +1,126 @@
+
+.img-exercises{
+    width: 300px;
+    height: 300px;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+.cont-father{
+    display: flex;
+     padding-left: 7%;
+     padding-top: 5%;
+    width: 30%;
+    flex-direction: row;
+    
+}
+
+.li-footer{
+    list-style: none;
+}
+
+.title-exercises{
+width: 100%;
+display: flex;
+justify-content: center;
+color: white;
+font-size: 40px;
+border-bottom: 2px solid aquamarine;
+}
+
+
+.card-exercises{
+   border: 2px solid aqua;
+   display: flex;
+   flex-direction: column;
+   padding: 5%;
+   align-items: center;
+
+}
+
+.card-exercises:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+#exercises{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+}
+
+.name-exercises{
+    color: white;
+    font-size: 22px;
+}
+
+.muscle{
+    color: bisque;
+}
+
+#contact{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(27, 27, 27);
+    height: 100px;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.links-contact{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+
+.link-footer{
+    color: white;
+}
+
+.link-footer:hover{
+    color: aqua;
+    
+}
+
+
+
+
+/* MEDIA QUERY*/
+
+@media(max-width:480px){
+    .cont-father{
+        display: flex;
+         padding-left: 7%;
+         padding-top: 5%;
+        width: 90%;
+        flex-direction: row;
+        
+    }
+
+    .title-exercises{
+        margin-top: 5%;
+    }
+
+    .links-contact{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    
+    .li-footer{
+        list-style: none;
+        padding-top: 30px;
+    }
+    
+}
